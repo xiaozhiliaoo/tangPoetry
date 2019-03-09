@@ -9,6 +9,8 @@
 
 1  新建数据库  CREATE SCHEMA `tang-poetry` ;
 
-2  在mysql-workbench中的Management中选择Data Import/Restore
+2  在MySQLWorkbench中的Management中选择Data Import/Restore 或者常规的sql导入: mysql -uroot -p1234 tang-poetry  <poetry.sql (改成自己的用户名和密码)
 
+3  最后效果：
+![poetry-images](images/data.jpg)
 
